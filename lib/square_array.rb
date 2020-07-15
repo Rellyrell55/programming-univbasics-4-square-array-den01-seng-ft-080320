@@ -1,8 +1,8 @@
 def square_array(array)
-  new_array = []
-  array.each{|a| new_array.push(a*a)}
-  return new_array
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
+end
 
-arr = [1, 2, 3]
-square_array(arr)
-end 
+my_arr = [1, 2]
+p square_array(my_arr) #=> [1, 4]
