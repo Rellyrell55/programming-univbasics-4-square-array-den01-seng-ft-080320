@@ -3,6 +3,3 @@ def square_array(array)
   array.each{|a| new_array.push(a*a)}
   return new_array
 end
-
-arr = [1, 2, 3]
-puts square_array(arr)
