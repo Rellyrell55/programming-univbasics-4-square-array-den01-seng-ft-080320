@@ -4,8 +4,9 @@ def square_array(array)
   while i < array.length do 
    array{|a| new_array.push(a*a)}
    i += 0 
-  return new_array
-end
+  
+  end
+ return new_array
 end 
 
 
