@@ -1,7 +1,5 @@
 def square_array(array)
- i = 0 
-  while array[i] < array.length do 
-    return Math.sqrt(array[i])
-    i += 1
-  end 
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
