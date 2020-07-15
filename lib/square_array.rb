@@ -2,8 +2,8 @@ def square_array(array)
   new_array = []
   while new_array.length < array.length do 
     {|a| new_array.push(a*a)}
+  end 
   return new_array
- end
 end
 
 
