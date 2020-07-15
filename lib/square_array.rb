@@ -1,9 +1,8 @@
 def square_array(array)
-  Enumerator.new do |y|
-    array.each { |e| y << e ** 2 }    
-  end
-  .take(array.length)
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
 
-my_arr = [1, 2, 3, 4]
-p square_array(my_arr)
+arr = [1, 2, 3, 4, 5]
+puts square_array(arr)
