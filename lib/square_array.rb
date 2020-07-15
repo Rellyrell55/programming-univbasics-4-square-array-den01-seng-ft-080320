@@ -2,11 +2,9 @@ def square_array(array)
   i = 0 
   new_array = []
   while i < array.length do 
-   array{|a| new_array.push(a*a)}
-   i += 0 
-  
+   array[i] * array[i]
+   i += 1 
   end
- return new_array
 end 
 
 
